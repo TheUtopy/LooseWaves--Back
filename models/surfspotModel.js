@@ -16,10 +16,10 @@ const surfspotSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    photo: {
-        type: Image,
-        required: false,
-    },
+    //photo: {
+    //type: Image,
+    //required: false,
+    //},
     seasonBegin: {
         type: Date,
         required: true,
