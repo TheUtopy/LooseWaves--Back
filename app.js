@@ -7,7 +7,7 @@ app.use(express.json());
 const routeSurfSpots = require('./routes/surfspots');
 const routeUsers = require('./routes/users')
 
-mongoose.connect('mongodb://127.0.0.1:27017/LooseWaves',
+mongoose.connect('mongodb+srv://admin:loosewaves@loosewaves.2hmpcb5.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp',
 
    {
       useNewUrlParser: true,
